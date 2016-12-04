@@ -7,12 +7,12 @@ var IndexRoute = ReactRouter.IndexRoute;
 var hashHistory = ReactRouter.hashHistory;
 
 var Main = require('../components/Main');
-var Studies = require('../components/Studies');
+var SectionContainer = require('../containers/SectionContainer');
 
 var routes = (
   <Router history={hashHistory}>
     <Route path='/' component={Main}>
-      <IndexRoute component={Studies} />
+      <IndexRoute component={SectionContainer} />
     </Route>
   </Router>
 );

@@ -1,0 +1,21 @@
+{
+  "title": "Educacion",
+  "items": [
+    {
+      "date": "Mayo 2012",
+      "description": "Ingeniero de Sistemas (con honores), de la Escuela de Ingeniería de Sistemas, Universidad de Los Andes, Mérida - Venezuela. Tesis: Diseño e Implementación de un Mecanismo de Arranque rápido para TCP en un kernel Linux: Un Estudio en redes 802.11"
+    },
+    {
+      "date": "Junio 2012",
+      "description": "CCNA Exploration: LAN Switching and Wireless, Fundación Escuela Latinoamericana de Redes, Mérida-Venezuela."
+    },
+    {
+      "date": "Abril 2012",
+      "description": "CCNA Exploration: Routing Protocols and Concepts, Fundación Escuela Latinoamericana de Redes, Mérida-Venezuela."
+    },
+    {
+      "date": "Marzo 2012",
+      "description": "CCNA Exploration: Network Fundamentals, Fundación Escuela Latinoamericana de Redes, Mérida-Venezuela."
+    }
+  ]
+}
