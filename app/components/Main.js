@@ -43,7 +43,9 @@ var Main = React.createClass({
 
 var sectionsInfoUrls = [
   '/app/data/studies.json',
-  '/app/data/Programming.json'
+  '/app/data/programming.json',
+  '/app/data/experience.json',
+  '/app/data/languages.json'
 ]
 
 module.exports = Main;

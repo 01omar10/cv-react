@@ -1,0 +1,13 @@
+{
+  "title": "Idiomas",
+  "items": [
+    {
+      "subTitle": "Español",
+      "description": "Nativo."
+    },
+    {
+      "subTitle": "Inglés",
+      "description": "Avanzado."
+    }
+  ]
+}
