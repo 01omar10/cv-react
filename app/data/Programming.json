@@ -1,0 +1,21 @@
+{
+  "title": "Habilidades en Computación",
+  "items": [
+    {
+      "subTitle": "Sistemas Operativos",
+      "description": "GNU/Linux, Windows, Mac OSX."
+    },
+    {
+      "subTitle": "Programación",
+      "description": "Java (Spring, Hibernate), Java Servlets, RESTful, Objective-C, C, C++, bash, JQuery, HTML5, CSS, SASS, XML, Python, Oracle SQL, Angular 2, Git, SCRUM methodology, Test Driven Development."
+    },
+    {
+      "subTitle": "IDEs",
+      "description": "XCode, Eclipse, IntelliJ, Oracle SQL Developer."
+    },
+    {
+      "subTitle": "Monitoreo de redes",
+      "description": "SNMP, iperf, wireshark/tshark, tcpdump."
+    }
+  ]
+}

@@ -14,21 +14,37 @@ var SectionContainer = React.createClass({
       items: []
     };
   },
-  componentDidMount: function() {
-    var query = this.props.location.query;
-    getSectionInfo('/app/data/studies.json')
+  updateSectionInfo: function(props) {
+    getSectionInfo(props.dataUrl)
       .then(function(response) {
+        debugger
         this.setState({
           title: response.data.title,
           items: response.data.items,
         });
       }.bind(this));
   },
+  componentDidMount: function() {
+    this.updateSectionInfo(this.props);
+  },
+  componentWillReceiveProps: function(nextProps) {
+    this.updateSectionInfo(nextProps);
+  },
   render: function() {
+    debugger
     return (
-      <Section title={this.state.title} items={this.state.items}/>
+      <Section title={this.state.title}
+        items={this.state.items}/>
     );
   }
 });
 
 module.exports = SectionContainer;
+
+
+/*Next steps:
+
+- Click on navigator update current page
+- Get new data
+- Re render section with new data
+- Navigator styles (float, transparents when no hover, if no next or prev, no show)*/
