@@ -30,7 +30,7 @@ var Main = React.createClass({
   },
   render: function() {
     return (
-      <div className='main-container jumbotron col-sm-6 col-sm-offset-3 text-center' style={{background: 'transparent'}}>
+      <div className='main-container jumbotron col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 text-center' style={{background: 'transparent'}}>
         <Header />
         <Navigator onNextPage={this.handleNextPage} onPrevPage={this.handlePrevPage}/>
         <SectionContainer dataUrl={sectionsInfoUrls[this.state.currentPage]}/>
