@@ -13,7 +13,6 @@ var Main = React.createClass({
   handleNextPage: function() {
     if (this.state.currentPage < (sectionsInfoUrls.length - 1)) {
       var nextPageIndex = (this.state.currentPage + 1);
-      debugger
       this.setState({
         currentPage: nextPageIndex
       });

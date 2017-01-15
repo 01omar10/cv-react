@@ -17,7 +17,6 @@ var SectionContainer = React.createClass({
   updateSectionInfo: function(props) {
     getSectionInfo(props.dataUrl)
       .then(function(response) {
-        debugger
         this.setState({
           title: response.data.title,
           items: response.data.items,
@@ -31,7 +30,6 @@ var SectionContainer = React.createClass({
     this.updateSectionInfo(nextProps);
   },
   render: function() {
-    debugger
     return (
       <Section title={this.state.title}
         items={this.state.items}/>
