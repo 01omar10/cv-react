@@ -32,7 +32,11 @@ var Main = React.createClass({
     return (
       <div className='main-container jumbotron col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 text-center' style={{background: 'transparent'}}>
         <Header />
-        <Navigator onNextPage={this.handleNextPage} onPrevPage={this.handlePrevPage}/>
+        <Navigator
+          onNextPage={this.handleNextPage}
+          onPrevPage={this.handlePrevPage}
+          thereIsLeftPage={(this.state.currentPage > 0 )}
+          thereIsRightPage={(this.state.currentPage < (sectionsInfoUrls.length - 1))}/>
         <SectionContainer dataUrl={sectionsInfoUrls[this.state.currentPage]}/>
         <Footer />
       </div>
